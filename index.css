@@ -112,7 +112,7 @@ header {
 }
 
 hr {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .bi-question-circle, .bi-list, .bi-moon-fill {
@@ -148,6 +148,10 @@ hr {
 /*keyboard section*/
 
 .keyboard {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 5%;
     margin-right: 30px;
 }
