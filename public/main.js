@@ -1,6 +1,6 @@
-import {QuestionModal} from "./Classes/QuestionModal.js";
-import {AboutWindow} from "./Classes/AboutModal.js";
-import {GameBoard} from "./Classes/GameBoard.js";
+import {QuestionModal} from "../Classes/QuestionModal.js";
+import {AboutWindow} from "../Classes/AboutModal.js";
+import {GameBoard} from "../Classes/GameBoard.js";
 class Game {
     constructor() {
         this.questionModal = new QuestionModal();
