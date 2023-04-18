@@ -29,6 +29,9 @@ class GameBoard {
     init() {
         //creates grid through adding elements to DOM tree
         //creates a round element section, corresponds to the grid's row
+        
+        let winCondition = false;
+        
         for (let i = 1; i < this.rounds + 1; i++) {
             let round = document.createElement('section');
             round.classList.add('round' + i, 'round');
@@ -105,6 +108,7 @@ class GameBoard {
 
                                         //if the validator is the assigned word, start winning animation
                                         if (validator === this.word) {
+                                            winCondition = true;
                                             setTimeout(() => {
                                                 currBox[i].classList.remove('flip');
                                                 currBox[i].classList.add('winner');
@@ -153,7 +157,7 @@ class GameBoard {
 
                                 //losing condition, if current round is greater than the amount of defined rounds
                                 //start losing animation
-                                if (this.currRound > this.rounds) {
+                                if (this.currRound > this.rounds && winCondition === false) {
                                     console.log('Sorry, you lost!');
                                     this.inputEnabled = false;
 
