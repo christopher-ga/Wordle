@@ -1,0 +1,15 @@
+{
+  "name": "Wordle-Public",
+  "version": "1.0.0",
+  "description": "A clone of the Wordle game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Christopher Garcia",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  }
+}
