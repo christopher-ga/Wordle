@@ -1,6 +1,6 @@
 A clone of the New York Times owned game, Wordle!
 
-To start a server where the game will be hosted:
+To start a local server where the game is hosted:
 
 ```
 node server.js
