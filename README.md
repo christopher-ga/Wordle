@@ -1,4 +1,4 @@
-A clone of the hit, New York Times owned game, Wordle!
+A clone of the New York Times owned game, Wordle!
 
 To start a server where the game will be hosted:
 
