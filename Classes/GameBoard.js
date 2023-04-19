@@ -1,4 +1,4 @@
-import {wordArray} from "../fiveLetterList.js";
+import {wordArray} from "./dictionary.js";
 
 class GameBoard {
     constructor() {
