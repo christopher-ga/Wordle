@@ -1,6 +1,10 @@
 A clone of the New York Times owned game, Wordle!
 
-To start a local server where the game is hosted:
+To see a live version via Github pages:
+
+https://christopher-ga.github.io/Wordle/
+
+To start a local server where the game is hosted, download and run:
 
 ```
 node server.js
